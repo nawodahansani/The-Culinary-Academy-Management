@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loginForm" prefHeight="758.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.LoginFormController">
+   <HBox alignment="CENTER" layoutX="484.0" layoutY="601.0" prefHeight="36.0" prefWidth="464.0" />
+   <ImageView fitHeight="758.0" fitWidth="1440.0">
+      <image>
+         <Image url="@../assest/image/culinary1.png" />
+      </image>
+   </ImageView>
+   <Label layoutX="581.0" layoutY="275.0" prefHeight="53.0" prefWidth="216.0" style="-fx-font-size: 36; -fx-font-weight: bold;" text="Welcome To">
+      <font>
+         <Font size="36.0" />
+      </font>
+   </Label>
+   <Label layoutX="443.0" layoutY="328.0" prefHeight="66.0" prefWidth="492.0" style="-fx-font-size: 45; -fx-font-weight: bold;" text=" The Culinary Academy">
+      <font>
+         <Font size="40.0" />
+      </font>
+   </Label>
+   <JFXButton buttonType="RAISED" layoutX="746.0" layoutY="422.0" onAction="#signUpOnAction" prefHeight="44.0" prefWidth="120.0" ripplerFill="WHITE" style="-fx-background-color: #1e272e; -fx-background-radius: 5;" text="SIGN UP" textFill="WHITE">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font>
+   </JFXButton>
+   <JFXButton buttonType="RAISED" layoutX="521.0" layoutY="422.0" onAction="#signInOnAction" prefHeight="44.0" prefWidth="120.0" ripplerFill="WHITE" style="-fx-background-color: #1e272e; -fx-background-radius: 5;" text="SIGN IN" textFill="WHITE">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font>
+   </JFXButton>
+</AnchorPane>
